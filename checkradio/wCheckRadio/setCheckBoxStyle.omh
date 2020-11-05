@@ -1,0 +1,7 @@
+Do iCheckBoxStyles.$loadcols()
+Do $cinst.$objs.Checkbox.$buttonstyle.$assign(iCheckBoxStyle)
+If iCheckBoxStyle=kCheckBoxHorizontal
+	Do $cinst.$objs.Checkbox.$text.$assign('NO,YES')
+Else
+	Do $cinst.$objs.Checkbox.$text.$assign($cclass.$objs.Checkbox.$text)
+End If

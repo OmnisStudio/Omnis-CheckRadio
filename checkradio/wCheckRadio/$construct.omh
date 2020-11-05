@@ -1,0 +1,27 @@
+# Enter your initialization code here
+
+Do iCheckBoxStyles.$define(iCheckBoxStyle)
+Do iCheckBoxStyles.$add(kNoBorderButton)
+Do iCheckBoxStyles.$add(kCheckRadioCrossMark)
+Do iCheckBoxStyles.$add(kCheckRadioTickMark)
+Do iCheckBoxStyles.$add(kCheckBoxHorizontal)
+Do iCheckBoxStyles.$line.$assign(3)
+Do method setCheckBoxStyle
+
+
+Do iRadioGroupStyles.$define(iRadioGroupStyle)
+Do iRadioGroupStyles.$add(kNoBorderButton)
+Do iRadioGroupStyles.$add(kCheckRadioCrossMark)
+Do iRadioGroupStyles.$add(kCheckRadioTickMark)
+
+Do iRadioGroupStyles.$line.$assign(2)
+Do method setRadioGroupStyle
+
+
+Do iRadioButtonStyles.$define(iRadioButtonStyle)
+Do iRadioButtonStyles.$add(kNoBorderButton)
+Do iRadioButtonStyles.$add(kCheckRadioCrossMark)
+Do iRadioButtonStyles.$add(kCheckRadioTickMark)
+
+Do iRadioButtonStyles.$line.$assign(2)
+Do method setRadioButtonStyle

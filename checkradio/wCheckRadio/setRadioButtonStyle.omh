@@ -1,0 +1,3 @@
+Do iRadioButtonStyles.$loadcols()
+Do $cinst.$objs.RadioButton1.$buttonstyle.$assign(iRadioButtonStyle)
+Do $cinst.$objs.RadioButton2.$buttonstyle.$assign(iRadioButtonStyle)

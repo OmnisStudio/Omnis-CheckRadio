@@ -1,0 +1,2 @@
+Do iRadioGroupStyles.$loadcols()
+Do $cinst.$objs.RadioGroup.$buttonstyle.$assign(iRadioGroupStyle)
